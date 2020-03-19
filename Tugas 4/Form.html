@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        <style>
+            form{
+                width: 50%;
+            }
+            input[type="text"]{
+                width: 95%;
+                height: 30px;
+            }
+            textarea{
+                width: 95%;
+                height: 90px;
+            }
+            input[type="submit"]{
+                border-radius: 6px;
+                width: 100px;
+                height: 30px;
+                background-color:#ffd700;
+                color: white;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Form</legend>
+                    <p>
+                    <label>Username</label>
+                    <input type="text" name="uname" placeholder="Username">
+                    </p>
+                    <p>
+                    <label>Password</label>
+                    <input type="text" name="pwd" placeholder="Password">
+                    </p>
+                    <p>
+                    <label>Gender</label>
+                    <span style="padding: 48px;"></span>
+                    <input type="radio" name="jk" value="laki">
+                    <label>Laki- Laki</label>
+                    <input type="radio" name="jk" value="perempuan">
+                    <label>Perempuan</label>
+                    </p>
+                    <p>
+                    <label>Hobby</label>
+                    <span style="padding:50px;"></span>
+                    <input type="checkbox" name="Melukis">
+                    <label>Melukis</label>
+                    <input type="checkbox" name="Menyanyi">
+                    <label>Menyanyi</label>
+                    <input type="checkbox" name="Menari">
+                    <label>Menari</label>
+                    </p>
+                    <p>
+                    <label>Pendidikan</label>
+                    <span style="padding: 17px;"></span>
+                    <select name="pddkn" style="width: 100px;">
+                        <option></option>
+                        <option>SD</option>
+                        <option>SMP</option>
+                        <option>SMA</option>
+                        <option>SARJANA</option>
+                    </select>
+                    </p>
+                    <p>
+                    <label>Alamat</label>
+                    <textarea name="alamat" placeholder="Isi Alamat lengkap"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" name="send" value="Submit">
+                    </p>
+                </fieldset>
+            </form>
+        </div>   
+    </body>
+</html>
