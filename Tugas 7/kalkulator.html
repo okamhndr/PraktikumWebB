@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="kalkulator.css">
+    <script src="kalkulator.js"></script>
+  
+</head>
+<body>
+    <div class="kalkulator main">
+        <form name="form">
+        <table cellspacing="6" >
+            <tr>
+                <td>
+                    <p style="color: white; text-align: center;"><b>KALKULATOR</b></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="dis" disabled value="0">
+                </td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+            </tr>
+            <tr>    
+                <td colspan="1">
+                    <input type="button" value="C" id="C" onclick="cls();" style="width: 126px;"> 
+                    <input type="button" value="<"  onclick="del();" style="float: right; width: 126px;" > 
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="7" id="angka" onclick="ins('7');">
+                    <input type="button" value="8" id="angka" onclick="ins('8');">
+                    <input type="button" value="9" id="angka" onclick="ins('9');">
+                    <input type="button" value="* " id="operator" onclick="opr_func(1);">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="4" id="angka" onclick="ins('4');">
+                    <input type="button" value="5" id="angka" onclick="ins('5');">
+                    <input type="button" value="6" id="angka" onclick="ins('6');">
+                    <input type="button" value="/ " id="operator" onclick="opr_func(2);">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="1" id="angka" onclick="ins('1');">
+                    <input type="button" value="2" id="angka" onclick="ins('2');">
+                    <input type="button" value="3" id="angka" onclick="ins('3');">
+                    <input type="button" value="+" id="operator" onclick="opr_func(3);">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="0" id="angka" onclick="ins('0');">
+                    <input type="button" value=". " id="titik" onclick="koma();">
+                    <input type="button" onclick="kalkulator();" value="=" id="equal" >
+                    <input type="button" value="- " id="operator" onclick="opr_func(4);">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>
+</body>
+</html>
