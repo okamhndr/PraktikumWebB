@@ -1,0 +1,38 @@
+*{padding: 0px; margin: 0px;}
+.main{
+
+}
+.left-content{
+    float: left;
+    width: 20%;
+    background-color: blue;
+    text-align: center;
+    padding-bottom:495px;
+}
+.left-content a{
+    text-decoration: none;
+    color: white;
+    
+}
+.left-content li{
+    padding: 10px;
+}
+.left-content img{
+    padding-top: 30px;
+}
+
+.mid-content{
+    float: left;
+    width: 80%;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.info table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin-left: 20px;
+    text-align: center;
+}

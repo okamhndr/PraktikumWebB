@@ -1,0 +1,36 @@
+*{padding: 0px; margin: 0px;}
+.main{
+
+}
+.left-content{
+    float: left;
+    width: 20%;
+    background-color: rgba(13, 13, 141, 0.842);
+    text-align: center;
+    padding-bottom:495px;
+}
+.left-content a{
+    text-decoration: none;
+    color: white;
+    
+}
+.left-content li{
+    padding: 10px;
+}
+.left-content img{
+    padding-top: 30px;
+}
+.logout{
+    bottom: 0px;
+    background-attachment: fixed;
+    position: absolute;
+    padding: 30px 110px;
+}
+.mid-content{
+    float: left;
+    width: 80%;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}

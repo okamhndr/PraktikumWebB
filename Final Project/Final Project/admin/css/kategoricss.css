@@ -1,0 +1,75 @@
+*{padding: 0px; margin: 0px;}
+.main{
+height: 100%;
+}
+.left-content{
+    float: left;
+    width: 20%;
+    background-color: blue;
+    text-align: center;
+    padding-bottom:600px;
+}
+.left-content a{
+    text-decoration: none;
+    color: white;
+    
+}
+.left-content li{
+    padding: 10px;
+}
+.left-content img{
+    padding-top: 30px;
+}
+
+.mid-content{
+    float: left;
+    width: 80%;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.info table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+.info button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.addbook{
+    float: left;
+    width: 50%;
+}
+.addbook input{
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+.addbook input[type="submit"]{
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 281px;
+    cursor: pointer;
+}
+.addbook input[type="submit"]:hover{
+    background-color: rgb(3, 180, 180);
+}
+h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

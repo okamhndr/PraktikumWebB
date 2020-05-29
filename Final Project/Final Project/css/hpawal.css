@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.daftar{
+    text-align:center ;
+    height: 200px;
+}
+.daftar button{
+    padding: 7px 15px;
+    font-size: 17px;
+    background-color: #7a5138;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.mid{
+   overflow: hidden;
+   background-color: #7a5138;
+}
+.mid a{
+    
+    float: left;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 16px;
+    
+}
+
+.mid button{
+    float: right;
+    padding: 5px 15px;
+    margin-top: 8px;
+    margin-right: 5px;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+.mid a:hover{
+    background-color: #85583c;
+}
+.description{
+    text-align: center;
+}
+.cont{
+    float: left;
+    width: 33.33%;
+}
+.description:after{
+content: "";
+display: table;
+clear: both;
+}
+footer{
+    position: absolute;
+     background-color: #7a5138;
+    height: 70px;
+    width: 100%;
+    color: white;
+    
+    text-align: center;
+}

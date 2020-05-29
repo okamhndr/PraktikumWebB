@@ -1,0 +1,182 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {}
+
+.header {
+    height: 80px;
+    padding: 25px 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.usrprofile {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.usrprofile img {
+    background-color: white;
+    padding-top: 0px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.content a:hover {
+    background-color: rgba(168, 96, 45, 0.842);
+    ;
+}
+
+.show {
+    display: block;
+}
+
+.header button {
+    background-color: rgba(168, 96, 45, 0.842);
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(173, 123, 87);
+}
+
+.nav a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 16px;
+}
+
+.nav a:hover {
+    background-color: rgba(189, 144, 110, 0.959);
+}
+
+.header button {
+    float: right;
+}
+
+.content {
+    float: left;
+}
+
+.utility {
+    float: right;
+    display: block;
+    margin: 12px;
+}
+
+.utility input {
+    padding: 5px 30px;
+}
+
+.utility select {
+    padding: 5px;
+    border: none;
+}
+
+.data {
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 70%;
+}
+
+.data td {
+    padding: 20px;
+}
+
+.data a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.profile-user {
+    margin: 90px 30px;
+    width: 50%;
+}
+
+.profile-user input {
+    width: 100%;
+    padding: 11px 0px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.profile-user input[type="submit"] {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.profile-user input[type="submit"]:hover {
+    background-color: rgba(3, 173, 3, 0.884);
+}
+
+.profile-user h1,
+p {
+    margin-left: 20px;
+}
+
+.data-pinjaman {
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 70%;
+}
+
+.data-pinjaman table,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(173, 123, 87);
+    height: 70px;
+    width: 100%;
+    color: white;
+    bottom: 0px;
+    text-align: center;
+}
